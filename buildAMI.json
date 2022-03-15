@@ -10,7 +10,7 @@
           "name": "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-*",
           "root-device-type": "ebs"
         },
-        "owners": ["099720109477"],
+        "owners": ["312675915196"],
         "most_recent": true
       },
       "tags": {
