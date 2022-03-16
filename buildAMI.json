@@ -4,15 +4,7 @@
       "ami_name": "ion-packer-{{timestamp}}",
       "instance_type": "t2.micro",
       "region":"us-east-2",
-      "source_ami_filter": {
-        "filters": {
-          "virtualization-type": "hvm",
-          "name": "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-*",
-          "root-device-type": "ebs"
-        },
-        "owners": ["312675915196"],
-        "most_recent": true
-      },
+      "source_ami": "ami-045137e8d34668746",    
       "tags": {
         "Name": "packer_ami"
       },
