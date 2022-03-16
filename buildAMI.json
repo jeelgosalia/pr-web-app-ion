@@ -3,7 +3,7 @@
     {
       "ami_name": "ion-packer-{{timestamp}}",
       "instance_type": "t2.micro",
-      "region":"us-east-2",
+      "region":"us-west-2",
       "source_ami": "ami-045137e8d34668746",    
       "tags": {
         "Name": "packer_ami"
